@@ -25,8 +25,30 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    font-family: var(--font);
+    color: var(--dark-color1);
+    font-size: var(--paragraph-size);
 }
 
 #about-img {
     max-width: var(--mobile-width);
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
 }
+
+.title-wrapper {
+    margin: 3rem 0;
+}
+
+#section-title {
+    font-size: var(--title-size);
+    font-weight: var(--bold);
+    text-align: center;
+}
+
+.title-paragraph {
+    text-align: center;
+    color: var(--accent-color1);
+}
+

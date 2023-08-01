@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+  --main-font: "Roboto", sans-serif;
+  --title-font: "Merriweather", serif;
+  --dark-color1: #1A120B; 
+  --dark-color2: #3C2A21; 
+  --neutral-color1: #D5CEA3;
+  --neutral-color2: #E5E5CB; 
+}

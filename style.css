@@ -13,4 +13,26 @@
   --dark-color2: #3C2A21; 
   --neutral-color1: #D5CEA3;
   --neutral-color2: #E5E5CB; 
+  --title-size: 24px; 
+  --text-size: 16px;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: var(--text-size);
+}
+
+#tabs {
+  max-width: var(--mobile-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  margin: 0 auto;
+}
+
+.faq-img {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
 }

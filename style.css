@@ -13,6 +13,7 @@
   --dark-color2: #3C2A21; 
   --neutral-color1: #D5CEA3;
   --neutral-color2: #E5E5CB; 
+  --neutral-color3: #F5F5F5; 
   --title-size: 24px; 
   --text-size: 16px;
 }
@@ -29,10 +30,16 @@ body {
   align-items: center;
   justify-content: center;  
   margin: 0 auto;
+  background-color: var(--neutral-color3);
 }
 
 .faq-img {
   display: block;
   object-fit: cover;
   max-width: 100%;
+}
+
+.faq-title-wrapper {
+  text-align: center;
+  padding: 1rem; 
 }

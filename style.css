@@ -12,15 +12,17 @@
   --dark-color1: #1A120B; 
   --dark-color2: #3C2A21; 
   --neutral-color1: #D5CEA3;
-  --neutral-color2: #E5E5CB; 
+  --neutral-color2: #9E9FA5; 
   --neutral-color3: #F5F5F5; 
-  --title-size: 24px; 
+  --title-size: 24px;
+  --button-size: 18px; 
   --text-size: 16px;
 }
 
 body {
   font-family: var(--main-font);
   font-size: var(--text-size);
+  color: var(--dark-color1);
 }
 
 #tabs {
@@ -31,6 +33,7 @@ body {
   justify-content: center;  
   margin: 0 auto;
   background-color: var(--neutral-color3);
+  padding: 1rem; 
 }
 
 .faq-img {
@@ -42,4 +45,43 @@ body {
 .faq-title-wrapper {
   text-align: center;
   padding: 1rem; 
+}
+
+.faq-tabs-wrapper {
+  padding: 1rem 0;
+  min-width: 100%;
+}
+
+.faq-tabs-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  outline: none; 
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-tab {
+  font-size: var(--button-size);
+  font-family: var(--title-font);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: 1px solid var(--dark-color1);
+  padding: 0.2rem 0.4rem;
+  background-color: var(--neutral-color2);
+  color: var(--dark-color2);
+}
+
+.faq-tab:first-of-type {
+  border-top-left-radius: 15px;
+}
+
+.faq-tab:last-of-type {
+  border-top-right-radius: 15px;
 }

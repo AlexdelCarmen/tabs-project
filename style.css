@@ -34,6 +34,7 @@ body {
   margin: 0 auto;
   background-color: var(--neutral-color3);
   padding: 1rem; 
+  min-height: 100svh;
 }
 
 .faq-img {
@@ -84,4 +85,24 @@ button {
 
 .faq-tab:last-of-type {
   border-top-right-radius: 15px;
+}
+
+.faq-list-content {
+  list-style-type: none;
+}
+
+.faq-text-content {
+  text-align: justify;
+}
+
+.active {
+  background-color: var(--neutral-color1);
+}
+
+.faq-container {
+  display: none;
+}
+
+.visible {
+  display: unset;
 }

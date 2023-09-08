@@ -106,3 +106,44 @@ button {
 .visible {
   display: unset;
 }
+
+@media screen and (min-width: 840px) {
+  #tabs {
+    max-width: var(--desktop-width);
+  }
+
+  .faq-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+  }
+
+  .faq-img {
+    max-width: 30%;
+  }
+
+  .faq-tabs-wrapper {
+    min-width: unset;
+    padding: 0;
+    max-width: 40%;
+  }
+
+  .faq-tab {
+    min-width: 33%;
+  }
+
+  .faq-text-content {
+    font-size: 18px;
+    padding: 0.5rem;
+    line-height: 28px;
+  }
+
+  li {
+    font-size: 18px;
+    padding: 0 1.2rem;
+    line-height: 24px;
+    opacity: 0.9;
+  }
+
+}

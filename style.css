@@ -107,11 +107,13 @@ button {
   display: unset;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 940px) {
   #tabs {
     max-width: var(--desktop-width);
   }
 
+  
+  
   .faq-content-wrapper {
     display: flex;
     flex-direction: row;
@@ -146,4 +148,12 @@ button {
     opacity: 0.9;
   }
 
+  .faq-img {
+    width: 500px;
+    object-fit: contain; 
+  }
+
+  .faq-title-wrapper {
+    padding-bottom: 5rem;
+  }
 }
